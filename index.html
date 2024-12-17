@@ -38,11 +38,92 @@
       <!-- End Header -->
 
       <!-- Sidebar -->
-      <aside id="sidebar"></aside>
+      <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+            <span class="material-symbols-outlined"> inventory </span> Don's
+            Inventory
+          </div>
+          <span class="material-symbols-outlined" onclick="closeSidebar {}">
+            close
+          </span>
+        </div>
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            <span class="material-symbols-outlined"> dashboard </span>Dashboard
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-symbols-outlined"> inventory_2 </span>Products
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-symbols-outlined"> fact_check </span>Inventory
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-symbols-outlined"> add_shopping_cart </span
+            >Purchase Orders
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-symbols-outlined"> shopping_cart </span>Sales
+            Orders
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-symbols-outlined"> analytics </span>Reports
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-symbols-outlined"> settings </span>Settings
+          </li>
+        </ul>
+      </aside>
       <!-- End Sidebar -->
 
       <!-- Main -->
-      <main class="main-container"></main>
+      <main class="main-container">
+        <div class="main-title">
+          <p class="font-weight-bold">DASHBOARD</p>
+        </div>
+
+        <div class="main-cards">
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary">PRODUCTS</p>
+              <span class="material-symbols-outlined text-blue">
+                inventory_2
+              </span>
+            </div>
+            <span class="text-primary font-weight-bold">249</span>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary">PURCHASE ORDERS</p>
+              <span class="material-symbols-outlined text-orange">
+                add_shopping_cart
+              </span>
+            </div>
+            <span class="text-primary font-weight-bold">96</span>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary">SALES ORDERS</p>
+              <span class="material-symbols-outlined text-green">
+                shopping_cart
+              </span>
+            </div>
+            <span class="text-primary font-weight-bold">45</span>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary">INVENTORY ALERTS</p>
+              <span class="material-symbols-outlined text-red">
+                notification_important
+              </span>
+            </div>
+            <span class="text-primary font-weight-bold">183</span>
+          </div>
+        </div>
+      </main>
       <!-- End Main -->
     </div>
 
